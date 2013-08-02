@@ -3,14 +3,71 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css" type="text/css" media="all" /> 
-<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.5.min.js" type="text/javascript"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js" type="text/javascript"></script>
-<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css" type="text/css" media="all" />
+<script
+	src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<link rel="stylesheet"
+	href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css"
+	type="text/css" media="all" />
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.5.min.js"
+	type="text/javascript"></script>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"
+	type="text/javascript"></script>
+<link rel="stylesheet"
+	href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css"
+	type="text/css" media="all" />
+<link rel="stylesheet" href="maincss.css" type="text/css" media="all" />
+<link
+	href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css"
+	rel="stylesheet">
+<script
+	src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$("#menu").menu();
+	});
+	
+	
+</script>
+
 </head>
 <body>
-<button>HELLO</button>
+	<div class="container_m">
+		<div class="navbar_m">
+			<div class="navtile_m red">hello</div>
+			<div class="navtile_m blue">hello</div>
+			<div class="navtile_m orange">hello</div>
+		</div>
+		<div class="contentpane">
+
+			<div class="innermenu" style="display:none;">
+				<ul id="menu">
+					<li><a href="#">NEW</a></li>
+					<li><a href="#">EDIT</a></li>
+					<li><a href="#">DELETE</a></li>
+				</ul>
+			</div>
+			<table class="table">
+				<tr>
+					<th>title1</th>
+					<th>title2</th>
+					<th>title3</th>
+					<th>title4</th>
+				</tr>
+				<tr>
+					<td>info1</td>
+					<td>info2</td>
+					<td>info3</td>
+					<td><button class="btn" id="newuserbtn">NEW</button><button class="btn" id="edituserbtn">EDIT</button></td>
+				</tr>
+			</table>
+		</div>
+
+
+
+
+
+	</div>
 
 
 </body>
